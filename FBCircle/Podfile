@@ -1,0 +1,13 @@
+pod 'JSONKit'
+pod 'ASIHTTPRequest'
+pod "AFNetworking", "~> 2.0"
+pod 'MMDrawerController', '~> 0.5.5'
+
+pod 'UMengFeedback', '~> 1.4.1'
+
+pod 'UMeng', '~> 2.2.1'
+
+pod 'WeChatSDK', '~> 0.0.1'
+
+pod 'SDWebImage', '~> 3.6'
+pod 'iCarousel', '~> 1.7.6'

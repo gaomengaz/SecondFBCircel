@@ -1,0 +1,49 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "MyViewController.h"
+    #import "AsyncImageView.h"
+
+    #import "SzkAPI.h"
+    #import "SzkLoadData.h"
+
+#import "ZSNApi.h"
+
+    #import "FBQuanAPI.h"
+    #import <AFNetworking/AFNetworking.h>
+    #import <UIKit+AFNetworking.h>
+
+#import "GlocalUserImage.h"
+#import "GupData.h"
+
+    //颜色
+
+    #define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+    #define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f \
+    alpha:(a)]
+
+
+
+    #define TITLEFONT [UIFont fontWithName:@"Helvetica" size:20]
+
+    #define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+    #define MY_MACRO_NAME ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+
+
+
+#endif
+
+
