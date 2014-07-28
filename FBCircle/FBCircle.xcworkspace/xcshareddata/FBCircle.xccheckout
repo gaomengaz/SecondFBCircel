@@ -5,11 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>794B5D6F-3A96-4BF0-B808-C8DF07A42C8E</string>
+	<string>7AC8F139-3FBD-4C7E-B573-6EA711684373</string>
 	<key>IDESourceControlProjectName</key>
 	<string>FBCircle</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>595FAF00-F21D-4CB3-9CBA-05CC028FC645</key>
+		<string>https://github.com/gaomengaz/SecondFBCircel.git</string>
 		<key>8988D4EB-C194-4427-8426-0E3A5D83AD5B</key>
 		<string>https://github.com/FBLife/FBCirce_final_version.git</string>
 	</dict>
@@ -17,15 +19,17 @@
 	<string>FBCircle/FBCircle.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8988D4EB-C194-4427-8426-0E3A5D83AD5B</key>
+		<key>595FAF00-F21D-4CB3-9CBA-05CC028FC645</key>
 		<string>../..</string>
+		<key>8988D4EB-C194-4427-8426-0E3A5D83AD5B</key>
+		<string>../../../FBCirce_final_version</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/FBLife/FBCirce_final_version.git</string>
+	<string>https://github.com/gaomengaz/SecondFBCircel.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8988D4EB-C194-4427-8426-0E3A5D83AD5B</string>
+	<string>595FAF00-F21D-4CB3-9CBA-05CC028FC645</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>8988D4EB-C194-4427-8426-0E3A5D83AD5B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>FBCirce_final_version</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>595FAF00-F21D-4CB3-9CBA-05CC028FC645</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SecondFBCircel</string>
 		</dict>
 	</array>
 </dict>

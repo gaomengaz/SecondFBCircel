@@ -1156,7 +1156,7 @@
         self.province = _str1;//上传
         _isChooseArea = YES;
         
-        if (row > 0) {
+        if (row > 0) {//动态赋值城市
             self.city =  _data[_flagRow][@"Cities"][row-1][@"city"];
         }
         
